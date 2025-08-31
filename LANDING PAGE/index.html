@@ -1,48 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <title>Food Website</title>
-    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Landing Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="side-navbars">
-            <i class="fa-solid fa-bars"></i>
-        <div class="design">
-            <a href="">material</a>
-            <a href="">design</a>
-            <a href="">process</a>
-        </div>
-        </div>
-        <div class="top-navbar">
-            <div class="top">
-                <a href="#">Shop</a>
-                <a href="#">Features</a>
-                <a href="#">Recipes</a>
-                <a href="#">Hotline</a>
-            </div>
-            <div class="icons">
-                <a href=""><i class=fa-solid fa-cart-plus"></i></a>
-                <img src="C:\Users\diksha jain\Downloads\ChatGPT Image Aug 18, 2025, 01_47_10 PM.png" alt="">
-                <div class="theme-switch">
-                    <input type="checkbox" id="theme-switch" class="theme-switch-checkbox"> 
-                <label for="theme-switch" class="theme switch label">
-                    <i  class="fa-solid fa-sun"></i>
-                    <i class="fa-solid fa-moon"></i>
-                </label>               
-            </div>
-            </div>
-        </div>
-        <div class="food">
-            <div class="Foodbar">
-                <span>Foodbar</span>
-                <img src=""
-            </div>
-        </div>
-    </header>
-    
-    
+
+  <!-- Navbar -->
+  <header>
+    <h1>Foodies</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h2>Delicious Food Delivered To You</h2>
+      <p>Fresh, tasty, and fast delivery at your doorstep.</p>
+      <button class="btn" onclick="orderNow()">Order Now</button>
+    </div>
+  </section>
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-container">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1604908177522-0409be92d" alt="Burger">
+        <h3>Cheese Burger</h3>
+        <p>Juicy grilled burger with cheese & toppings.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1605478051634-904cdad889b2" alt="Pizza">
+        <h3>Italian Pizza</h3>
+        <p>Hot, cheesy pizza loaded with fresh ingredients.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1585238341986-48a8c387dc46" alt="Pasta">
+        <h3>Creamy Pasta</h3>
+        <p>Pasta tossed in creamy alfredo sauce.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Foodies | All Rights Reserved</p>
+  </footer>
+
+<script src="script.js"></script>
 </body>
 </html>
+
